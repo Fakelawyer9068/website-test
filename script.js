@@ -11,7 +11,7 @@ function login() {
   let username = usernameInput.value;
   let password = passwordInput.value;
 
-  if (username === 'tyler' && password === 'Copper15%' || username === 'elijah' && password === '123') {
+  if ( username === 'elijah' && password === '123') {
     loggedIn = true;
     loggedInUser.textContent = username;
     balanceText.textContent = 'Balance: $' + balance.toFixed(2);
